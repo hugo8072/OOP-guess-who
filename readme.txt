@@ -1,5 +1,4 @@
 Overview
-This document provides instructions for executing a Python script through the main entry point. 
 It's essential to ensure that the required CSV files (users.csv, records1.csv, records2.csv, 
 records3.csv, and players.csv) are located in the same directory as the main Python script. 
 This setup is necessary for the correct functioning of the script.
@@ -27,7 +26,7 @@ Run the Script: Execute the script by typing:
 
 
 python main.py
-Ensure that main.py is the name of your main Python script.
+
 
 Linux
 Open Terminal: You can usually open it by pressing Ctrl + Alt + T.
@@ -68,13 +67,3 @@ or
 ./main.py
 (Ensure your script is executable with chmod +x main.py.)
 
-Additional Notes
-Python Version: The instructions assume Python 3 is installed. If you have multiple Python versions, you may need to replace python or python3 with the specific version you intend to use (e.g., python3.8).
-
-File Paths: If you encounter issues related to file paths, ensure that the CSV files are indeed in the same directory as your Python script or adjust the file paths in your Python code accordingly.
-
-Dependencies: If your script requires external libraries, make sure to install them using pip. For example:
-
-
-pip install library-name
-If you encounter any issues or need further assistance, please refer to the Python documentation or seek help from online programming communities.
