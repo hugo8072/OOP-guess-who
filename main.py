@@ -1,27 +1,25 @@
 ##ao adivinhar 3 perguntas colocar a info no display!
 
 # Importing necessary libraries for handling CSV files, dates, random selections, and system operations
+# Standard libraries
 import csv
 import datetime
+import os
 import random
-import sys
-
 import statistics
 import sys
-import random
 from abc import ABC, abstractmethod
-import csv
 from datetime import datetime
+
+# GUI libraries
 import tkinter as tk
-from tkinter import simpledialog
-from tkinter import messagebox
-from PIL import Image, ImageTk 
-import os
-from tkinter import Tk, Label, Frame, Scrollbar, Canvas
-from tkinter import ttk
-import pygame
-from tkinter import simpledialog, messagebox   
+from tkinter import Canvas, Frame, Label, Scrollbar, Tk, messagebox, simpledialog, ttk
+
+# External libraries
 import cv2
+import pygame
+from PIL import Image, ImageTk
+
 
 
 
