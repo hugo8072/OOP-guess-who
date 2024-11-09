@@ -1,4 +1,4 @@
-##ao adivinhar 3 perguntas colocar a info no display!
+
 
 # Importing necessary libraries for handling CSV files, dates, random selections, and system operations
 # Standard libraries
