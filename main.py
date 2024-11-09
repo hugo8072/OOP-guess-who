@@ -1,7 +1,4 @@
-
-
-# Importing necessary libraries for handling CSV files, dates, random selections, and system operations
-# Standard libraries
+# Bibliotecas padrão
 import csv
 import datetime
 import os
@@ -11,15 +8,14 @@ import sys
 from abc import ABC, abstractmethod
 from datetime import datetime
 
-# GUI libraries
+# Bibliotecas de interface gráfica
 import tkinter as tk
 from tkinter import Canvas, Frame, Label, Scrollbar, Tk, messagebox, simpledialog, ttk
 
-# External libraries
+# Bibliotecas externas
 import cv2
 import pygame
 from PIL import Image, ImageTk
-
 
 
 
